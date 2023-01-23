@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Mastermind 
+{
+    class Program 
+    {
+        static void Main(string[] args) 
+        {
+            Console.WriteLine("Mastermind");
+            Mastermind mastermind = new Mastermind();
+            mastermind.Play();
+        }
+    }
+}
